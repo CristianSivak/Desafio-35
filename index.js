@@ -75,8 +75,8 @@ const enviarGmail = (asunto, mensaje, adjunto, to) => {
 // ------- 
 // twilio
 
-const accountSid = 'ACc8825e55199ff5a04ca0f41b7ffe3cdd';
-const authToken = 'fdccfcba15291733d3558f99ecff3a31';
+const accountSid = 'ACACACACACACACCACACACACACCA';
+const authToken = 'JAHKHHKJHKJHKJHKJHKJHKJHHJJK';
 
 const twilio = require('twilio');
 
