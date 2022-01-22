@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('../partials/head.ejs')%>
+    </head>
+
+    <body>
+
+        <div class="container mt-3">
+            <div class="jumbotron">
+                <h1>Sign in</h1>
+                <br>
+                <form action="/login" method="post" autocomplete="off">
+                    <div class="text-left">
+                        <button class="btn btn-info my-3" onclick="location.href = '/auth/twitter'">Ingresar con Twitter</button>
+                    </div>
+    
+                    <hr>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
